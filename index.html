@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro em Luz | Fotografia por Ronilson Ferreira</title>
+  <meta name="description" content="Registro em Luz por Ronilson Ferreira. Fotografia autoral, elegante e emocionante para casamentos, ensaios e eventos especiais. Solicite seu orçamento.">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23c59b27'><path d='M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z'/></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet na Raiz (Compatível com GitHub Pages) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================ -->
+  <!-- NAVBAR                                       -->
+  <!-- ============================================ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        Registro <span class="logo-accent">em Luz</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero">Início</a>
+        <a href="#sobre">Sobre o Fotógrafo</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#banlek">Banlek</a>
+        <a href="#faq">Dúvidas</a>
+        <a href="#contato" class="nav-cta">Solicite um Orçamento</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menu de navegação">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================ -->
+    <!-- HERO SECTION (Split Panel 100% Contido)      -->
+    <!-- ============================================ -->
+    <section id="hero" class="hero">
+      <div class="hero-split">
+        
+        <!-- Painel de Apresentação e Vendas (Esquerda) -->
+        <div class="hero-pane-text">
+          <div class="hero-particles" id="heroParticles"></div>
+
+          <div style="position: relative; z-index: 2;">
+            <span class="hero-tagline">Fotografia Autoral & Sensibilidade</span>
+            
+            <h1 class="hero-title">
+              Registro <span class="title-accent">em Luz</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              Eternizando seus momentos mais preciosos com a sensibilidade da luz natural e a verdade de cada sentimento. Fotografias criadas para atravessar gerações, assinadas por <strong>Ronilson Ferreira</strong>.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contato" class="btn btn-primary btn-lg">
+                <i class="fa-solid fa-calendar-check"></i>
+                Solicite um Orçamento
+              </a>
+              <a href="#portfolio" class="btn btn-outline-white btn-lg">
+                <i class="fa-regular fa-images"></i>
+                Ver Portfólio
+              </a>
+            </div>
+
+            <div class="hero-highlights">
+              <div class="hero-highlight-item">
+                <i class="fa-solid fa-gem"></i>
+                <span>Casamentos</span>
+              </div>
+              <div class="hero-highlight-item">
+                <i class="fa-solid fa-gem"></i>
+                <span>Ensaios</span>
+              </div>
+              <div class="hero-highlight-item">
+                <i class="fa-solid fa-gem"></i>
+                <span>Eventos</span>
+              </div>
+              <div class="hero-highlight-item">
+                <i class="fa-solid fa-gem"></i>
+                <span>Retratos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Painel de Imagem de Altíssima Qualidade (Direita) -->
+        <div class="hero-pane-media">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1600&q=85" 
+               alt="Registro em Luz - Fotografia por Ronilson Ferreira" 
+               class="hero-img-cover">
+          <div class="hero-media-gradient"></div>
+          
+          <div class="hero-media-badge">
+            <i class="fa-solid fa-camera"></i>
+            <span>Ronilson Ferreira • Registro em Luz</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- STATS BAR (Foco em Excelência e Conversão)   -->
+    <!-- ============================================ -->
+    <section class="stats-bar">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item" data-animate="fade-up">
+            <i class="fa-solid fa-heart stat-icon"></i>
+            <div>
+              <span class="stat-value">+500</span>
+              <span class="stat-label">Momentos Eternizados</span>
+            </div>
+          </div>
+
+          <div class="stat-item" data-animate="fade-up" data-delay="100">
+            <i class="fa-solid fa-camera-retro stat-icon"></i>
+            <div>
+              <span class="stat-value">100% Autoral</span>
+              <span class="stat-label">Dedicação & Olhar Único</span>
+            </div>
+          </div>
+
+          <div class="stat-item" data-animate="fade-up" data-delay="200">
+            <i class="fa-solid fa-cloud-arrow-down stat-icon"></i>
+            <div>
+              <span class="stat-value">Banlek</span>
+              <span class="stat-label">Entrega em Alta Resolução</span>
+            </div>
+          </div>
+
+          <div class="stat-item" data-animate="fade-up" data-delay="300">
+            <i class="fa-solid fa-star stat-icon"></i>
+            <div>
+              <span class="stat-value">5.0 Estrelas</span>
+              <span class="stat-label">Avaliação dos Clientes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SOBRE O FOTÓGRAFO                            -->
+    <!-- ============================================ -->
+    <section id="sobre" class="sobre section">
+      <div class="container">
+        <div class="sobre-grid">
+          <!-- Foto do Fotógrafo em Ação -->
+          <div class="sobre-image" data-animate="fade-right">
+            <div class="image-frame">
+              <img src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=1000&q=85" 
+                   alt="Ronilson Ferreira - Fotógrafo Profissional">
+              <div class="image-frame-accent"></div>
+              <div class="image-frame-badge">
+                <i class="fa-solid fa-camera"></i>
+                <span>Ronilson Ferreira</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Texto Sobre Ronilson Ferreira (Sem menção a tempo de atuação) -->
+          <div class="sobre-content" data-animate="fade-left">
+            <span class="section-label">A Essência do Olhar</span>
+            <h2 class="section-title">Sobre Ronilson Ferreira</h2>
+            
+            <div class="sobre-text">
+              <p>
+                Para <strong>Ronilson Ferreira</strong>, a fotografia nunca foi apenas apertar um disparador: é a arte precisa de capturar a alma dos momentos, a espontaneidade dos sorrisos e a intensidade dos olhares. Reconhecido por seu talento técnico e sensibilidade ímpar, ele transforma celebrações em um legado visual inestimável.
+              </p>
+              <p>
+                Seu trabalho se destaca pelo controle refinado da luz — valorizando tanto a suavidade acolhedora da iluminação natural quanto composições sofisticadas de cena. Ronilson conduz cada ensaio e evento de forma leve e descontraída, proporcionando uma experiência onde os clientes se sentem livres para viverem suas emoções mais genuínas.
+              </p>
+              <p>
+                Cada fotografia recebe um tratamento artesanal de pós-produção, garantindo colorimetria impecável, elegância atemporal e máxima fidelidade aos detalhes do seu grande dia.
+              </p>
+            </div>
+
+            <div class="sobre-features">
+              <div class="feature-item">
+                <i class="fa-solid fa-sun"></i>
+                <span>Domínio Magistral da Luz</span>
+              </div>
+              <div class="feature-item">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <span>Pós-produção Fina & Autoral</span>
+              </div>
+              <div class="feature-item">
+                <i class="fa-solid fa-users"></i>
+                <span>Direção Leve e Espontânea</span>
+              </div>
+              <div class="feature-item">
+                <i class="fa-solid fa-shield-halved"></i>
+                <span>Backup Duplo & Segurança</span>
+              </div>
+            </div>
+
+            <a href="#contato" class="btn btn-primary">
+              <i class="fa-brands fa-whatsapp"></i>
+              Reserve sua Data com Ronilson
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PORTFÓLIO (Grade Dinâmica e Interativa)      -->
+    <!-- ============================================ -->
+    <section id="portfolio" class="portfolio section">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 40px;" data-animate="fade-up">
+          <span class="section-label">Acervo Selecionado</span>
+          <h2 class="section-title">Nosso Portfólio</h2>
+          <p style="color: var(--color-text-secondary); margin-top: 12px; font-size: 1.05rem;">
+            Explore frações de segundo transformadas em poesia visual. Clique em qualquer imagem para ampliar em detalhes.
+          </p>
+        </div>
+
+        <!-- Filtros da Galeria -->
+        <div class="gallery-filters" data-animate="fade-up">
+          <button class="filter-btn active" data-filter="all">Todos os Trabalhos</button>
+          <button class="filter-btn" data-filter="casamentos">Casamentos</button>
+          <button class="filter-btn" data-filter="ensaios">Ensaios</button>
+          <button class="filter-btn" data-filter="eventos">Eventos</button>
+          <button class="filter-btn" data-filter="retratos">Retratos</button>
+        </div>
+
+        <!-- Grade Dinâmica (Estilo Masonry / Grid Interativo) -->
+        <div class="gallery-grid" id="galleryGrid">
+          
+          <!-- Item 1 - Casamento (Tall) -->
+          <div class="gallery-item tall visible" data-category="casamentos">
+            <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Casamento Emocionante - O Primeiro Olhar" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Casamentos</span>
+              <h3>O Primeiro Olhar</h3>
+            </div>
+          </div>
+
+          <!-- Item 2 - Ensaio -->
+          <div class="gallery-item visible" data-category="ensaios">
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Ensaio de Casal na Luz Dourada" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Ensaios</span>
+              <h3>Luz Dourada no Entardecer</h3>
+            </div>
+          </div>
+
+          <!-- Item 3 - Retrato -->
+          <div class="gallery-item visible" data-category="retratos">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Retrato Expressivo e Elegante" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Retratos</span>
+              <h3>Expressão & Singularidade</h3>
+            </div>
+          </div>
+
+          <!-- Item 4 - Evento (Wide) -->
+          <div class="gallery-item wide visible" data-category="eventos">
+            <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1200&q=85" 
+                 alt="Celebração Inesquecível em Grande Estilo" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Eventos</span>
+              <h3>Comemoração Inesquecível</h3>
+            </div>
+          </div>
+
+          <!-- Item 5 - Casamento -->
+          <div class="gallery-item visible" data-category="casamentos">
+            <img src="https://images.unsplash.com/photo-1583939003579-730e3918a45a?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Votos de Amor e Cumplicidade" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Casamentos</span>
+              <h3>Votos de Amor Eterno</h3>
+            </div>
+          </div>
+
+          <!-- Item 6 - Ensaio (Tall) -->
+          <div class="gallery-item tall visible" data-category="ensaios">
+            <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Conexão Autêntica ao Ar Livre" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Ensaios</span>
+              <h3>Conexão & Afeto Real</h3>
+            </div>
+          </div>
+
+          <!-- Item 7 - Retrato -->
+          <div class="gallery-item visible" data-category="retratos">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Retrato Masculino Contemporâneo" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Retratos</span>
+              <h3>Presença & Personalidade</h3>
+            </div>
+          </div>
+
+          <!-- Item 8 - Evento -->
+          <div class="gallery-item visible" data-category="eventos">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Energia e Alegria da Festa" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Eventos</span>
+              <h3>Energia da Pista de Dança</h3>
+            </div>
+          </div>
+
+          <!-- Item 9 - Casamento (Wide) -->
+          <div class="gallery-item wide visible" data-category="casamentos">
+            <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=1200&q=85" 
+                 alt="A Magia do Enlace Matrimonial" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Casamentos</span>
+              <h3>Poesia Visual em Harmonia</h3>
+            </div>
+          </div>
+
+          <!-- Item 10 - Ensaio -->
+          <div class="gallery-item visible" data-category="ensaios">
+            <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Alianças e Detalhes Especiais" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Ensaios</span>
+              <h3>Intimidade & Delicadeza</h3>
+            </div>
+          </div>
+
+          <!-- Item 11 - Retrato -->
+          <div class="gallery-item visible" data-category="retratos">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Retrato Artístico em Luz Suave" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Retratos</span>
+              <h3>Luz & Expressão Autêntica</h3>
+            </div>
+          </div>
+
+          <!-- Item 12 - Evento -->
+          <div class="gallery-item visible" data-category="eventos">
+            <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?auto=format&fit=crop&w=1000&q=85" 
+                 alt="Brinde Especial em Família" 
+                 class="gallery-img" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="gallery-category">Eventos</span>
+              <h3>Celebração em Família</h3>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CTA Estratégico no Portfólio -->
+        <div class="gallery-cta" data-animate="fade-up">
+          <p>Deseja registros impecáveis e cheios de sentimento para o seu momento?</p>
+          <a href="#contato" class="btn btn-primary btn-lg">
+            <i class="fa-solid fa-sparkles"></i>
+            Quero Essas Fotos no Meu Evento
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- LIGHTBOX MODAL                               -->
+    <!-- ============================================ -->
+    <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Foto anterior">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Próxima foto">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrapper" id="lightboxImgWrapper"></div>
+        <div class="lightbox-info" id="lightboxInfo"></div>
+      </div>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SEÇÃO 4: BANLEK (Título Exclusivamente Banlek)-->
+    <!-- ============================================ -->
+    <section id="banlek" class="entrega section">
+      <div class="container">
+        <div class="entrega-wrapper">
+          <!-- Conteúdo Explicativo da Entrega -->
+          <div class="entrega-content" data-animate="fade-right">
+            <span class="section-label">Entrega de Fotos</span>
+            <h2 class="section-title">Banlek</h2>
+            
+            <p class="entrega-text">
+              Após o evento, você merece reviver cada segundo com máxima agilidade, segurança e qualidade original. Todas as fotografias do <strong>Registro em Luz</strong> são entregues com exclusividade através da plataforma <strong>Banlek</strong>, a solução mais moderna e profissional de entrega de fotos do Brasil.
+            </p>
+
+            <ul class="entrega-list">
+              <li>
+                <i class="fa-solid fa-download"></i>
+                <span><strong>Download em Alta Resolução:</strong> Baixe fotos individuais ou o álbum completo com qualidade máxima para impressão, sem perdas.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <span><strong>Acesso Multiplataforma:</strong> Visualize e baixe facilmente em celulares, tablets ou computadores, sem instalar aplicativos pesados.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-lock"></i>
+                <span><strong>Privacidade & Segurança:</strong> Galeria privativa e protegida por senha para você e seus convidados.</span>
+              </li>
+              <li>
+                <i class="fa-solid fa-heart"></i>
+                <span><strong>Seleção de Favoritos:</strong> Marque suas fotos prediletas com um toque para confecção de álbuns impressos.</span>
+              </li>
+            </ul>
+
+            <div class="entrega-note">
+              <i class="fa-solid fa-circle-info"></i>
+              <span>O link individual e a senha de acesso da sua galeria no Banlek são disponibilizados assim que a pós-produção do seu evento for finalizada.</span>
+            </div>
+          </div>
+
+          <!-- Showcase Visual da Plataforma Banlek com Logo em Destaque -->
+          <div class="banlek-showcase" data-animate="fade-left">
+            <div class="banlek-badge">
+              <i class="fa-solid fa-shield-check"></i>
+              Plataforma Oficial de Entrega
+            </div>
+
+            <!-- Logo Banlek em Destaque -->
+            <div class="banlek-logo-area">
+              <svg class="banlek-logo" viewBox="0 0 240 60" xmlns="http://www.w3.org/2000/svg" aria-label="Logo Banlek">
+                <text x="25" y="44" font-family="'Plus Jakarta Sans', 'Inter', sans-serif" font-weight="800" font-size="42" letter-spacing="-1.5px" fill="#1c1917">banlek</text>
+                <circle cx="168" cy="20" r="6" fill="#00e5ff" />
+              </svg>
+              <p class="banlek-tagline">Tecnologia, segurança e comodidade para seus momentos</p>
+            </div>
+
+            <!-- Recursos Visuais do Banlek -->
+            <div class="banlek-features-visual">
+              <div class="feature-card">
+                <i class="fa-solid fa-cloud"></i>
+                <span>Nuvem Segura</span>
+              </div>
+              <div class="feature-card">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Download Rápido</span>
+              </div>
+              <div class="feature-card">
+                <i class="fa-solid fa-share-nodes"></i>
+                <span>Fácil Partilha</span>
+              </div>
+            </div>
+
+            <!-- Botão de Acesso com Link Vazio conforme solicitado -->
+            <div style="margin-top: 32px;">
+              <a href="#" class="btn btn-primary btn-lg" title="Acesse suas fotos no Banlek">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+                Acessar Minhas Fotos no Banlek
+              </a>
+              <p style="font-size: 0.8rem; color: var(--color-text-muted); margin-top: 12px;">
+                Link privativo configurado individualmente para cada cliente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- DEPOIMENTOS (Prova Social / Conversão)       -->
+    <!-- ============================================ -->
+    <section class="testimonials section">
+      <div class="container">
+        <div style="text-align: center; max-width: 600px; margin: 0 auto 48px;" data-animate="fade-up">
+          <span class="section-label">Experiência dos Clientes</span>
+          <h2 class="section-title">Palavras de Quem Confiou</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card" data-animate="fade-up">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "O Ronilson tem uma sensibilidade surreal! No nosso casamento nós nem percebemos que estávamos sendo fotografados, e o resultado foram fotos cheias de emoção e verdade. A entrega pelo Banlek foi super rápida e fácil de baixar."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">CM</div>
+              <div>
+                <strong>Camila & Marcelo</strong>
+                <span>Casamento em Belo Horizonte</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Eu e meu noivo morríamos de vergonha de posar para fotos, mas a condução do Ronilson no nosso ensaio pré-wedding foi tão leve que parecia um passeio entre amigos. As cores e a luz ficaram de cinema!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">LB</div>
+              <div>
+                <strong>Larissa & Bruno</strong>
+                <span>Ensaio Pré-Wedding</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-text">
+              "Trabalho impecável do início ao fim. O Ronilson é um profissional exemplar, pontual e com um olhar técnico impressionante. Minha família inteira se emocionou ao ver a galeria final."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RS</div>
+              <div>
+                <strong>Rodrigo Silveira</strong>
+                <span>Festa de 15 Anos da Filha</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- DÚVIDAS FREQUENTES (FAQ Accordion Caixinhas) -->
+    <!-- ============================================ -->
+    <section id="faq" class="faq-section section">
+      <div class="container">
+        <div style="text-align: center; max-width: 640px; margin: 0 auto;" data-animate="fade-up">
+          <span class="section-label">Tire Suas Dúvidas</span>
+          <h2 class="section-title">Perguntas Frequentes</h2>
+          <p style="color: var(--color-text-secondary); margin-top: 10px;">
+            Clique nas caixinhas abaixo para esclarecer suas dúvidas sobre o agendamento e a cobertura.
+          </p>
+        </div>
+
+        <!-- Lista de Caixinhas Accordion -->
+        <div class="faq-accordion-list">
+          
+          <!-- Caixinha 1 -->
+          <div class="faq-caixinha" data-animate="fade-up">
+            <button class="faq-caixinha-header" type="button" aria-expanded="false">
+              <span class="faq-question-title">
+                <i class="fa-regular fa-calendar-check"></i>
+                Como funciona a reserva da data com Ronilson Ferreira?
+              </span>
+              <span class="faq-chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </button>
+            <div class="faq-caixinha-content">
+              <div class="faq-caixinha-body">
+                A reserva é confirmada mediante conversa prévia no WhatsApp para alinhamento de horários, locais e expectativas, seguida da formalização de contrato com garantia mútua. Trabalhamos com uma quantidade restrita de eventos por mês para assegurar dedicação exclusiva e atenção a cada detalhe.
+              </div>
+            </div>
+          </div>
+
+          <!-- Caixinha 2 -->
+          <div class="faq-caixinha" data-animate="fade-up" data-delay="80">
+            <button class="faq-caixinha-header" type="button" aria-expanded="false">
+              <span class="faq-question-title">
+                <i class="fa-solid fa-cloud-arrow-down"></i>
+                Em quanto tempo recebo minhas fotos na plataforma Banlek?
+              </span>
+              <span class="faq-chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </button>
+            <div class="faq-caixinha-content">
+              <div class="faq-caixinha-body">
+                Logo após a realização do evento ou ensaio, inicia-se o processo criterioso de backup duplo, seleção e pós-produção autoral. Assim que o tratamento de cor e iluminação for concluído, você recebe um link privativo e sua senha pessoal para acessar e baixar todo o material em altíssima resolução no Banlek.
+              </div>
+            </div>
+          </div>
+
+          <!-- Caixinha 3 -->
+          <div class="faq-caixinha" data-animate="fade-up" data-delay="160">
+            <button class="faq-caixinha-header" type="button" aria-expanded="false">
+              <span class="faq-question-title">
+                <i class="fa-solid fa-location-dot"></i>
+                Você realiza atendimentos fora de Belo Horizonte e em outros estados?
+              </span>
+              <span class="faq-chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </button>
+            <div class="faq-caixinha-content">
+              <div class="faq-caixinha-body">
+                Com certeza! Ronilson Ferreira atende em Belo Horizonte, cidades da Região Metropolitana e viaja para qualquer destino do Brasil ou exterior onde houver uma história emocionante para ser registrada. Todas as despesas de deslocamento são detalhadas no orçamento com absoluta transparência.
+              </div>
+            </div>
+          </div>
+
+          <!-- Caixinha 4 -->
+          <div class="faq-caixinha" data-animate="fade-up" data-delay="240">
+            <button class="faq-caixinha-header" type="button" aria-expanded="false">
+              <span class="faq-question-title">
+                <i class="fa-regular fa-image"></i>
+                Como funciona a seleção para álbuns impressos e ampliações?
+              </span>
+              <span class="faq-chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </button>
+            <div class="faq-caixinha-content">
+              <div class="faq-caixinha-body">
+                Diretamente na plataforma Banlek, você conta com uma ferramenta intuitiva para favoritar suas fotos preferidas. A partir dessa seleção, diagramamos o layout do álbum com acabamento encadernado de luxo, submetemos para sua aprovação e enviamos para produção gráfica de alto padrão.
+              </div>
+            </div>
+          </div>
+
+          <!-- Caixinha 5 -->
+          <div class="faq-caixinha" data-animate="fade-up" data-delay="320">
+            <button class="faq-caixinha-header" type="button" aria-expanded="false">
+              <span class="faq-question-title">
+                <i class="fa-brands fa-whatsapp"></i>
+                Como posso solicitar um orçamento personalizado agora?
+              </span>
+              <span class="faq-chevron">
+                <i class="fa-solid fa-chevron-down"></i>
+              </span>
+            </button>
+            <div class="faq-caixinha-content">
+              <div class="faq-caixinha-body">
+                Basta clicar nos botões de WhatsApp ou de e-mail disponíveis nesta página. Informe a data estimada, o tipo de ensaio ou evento e a cidade. Ronilson Ferreira responderá prontamente com opções detalhadas de propostas adaptadas ao seu sonho.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTATO (Fechamento de Vendas - Regras Estritas) -->
+    <!-- ============================================ -->
+    <section id="contato" class="cta-final section">
+      <div class="container">
+        <div class="cta-final-content" data-animate="fade-up">
+          <span class="section-label light">Vamos Conversar</span>
+          <h2 class="cta-final-title">Pronto Para Eternizar Sua História?</h2>
+          <p class="cta-final-desc">
+            As datas mais disputadas do ano preenchem-se com antecedência. Fale diretamente com <strong>Ronilson Ferreira</strong> hoje mesmo para verificar a disponibilidade da sua data e receber uma proposta personalizada.
+          </p>
+
+          <!-- As ÚNICAS Formas de Contato Exibidas: Telefone/WhatsApp e E-mail -->
+          <div class="contact-cards-grid">
+            
+            <!-- Card 1: Telefone / WhatsApp direto -->
+            <div class="contact-card whatsapp" data-animate="fade-up">
+              <div class="contact-card-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <h3>WhatsApp & Telefone</h3>
+              <div class="contact-card-detail">31 991096868</div>
+              <p class="contact-card-note">Atendimento direto e ágil com Ronilson Ferreira.</p>
+              <a href="https://wa.me/5531991096868?text=Ol%C3%A1%20Ronilson!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20o%20Registro%20em%20Luz." 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn btn-primary btn-lg">
+                <i class="fa-brands fa-whatsapp"></i>
+                Conversar no WhatsApp
+              </a>
+            </div>
+
+            <!-- Card 2: E-mail direto -->
+            <div class="contact-card email" data-animate="fade-up" data-delay="100">
+              <div class="contact-card-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <h3>E-mail Oficial</h3>
+              <div class="contact-card-detail">registroemluz@gmail.com</div>
+              <p class="contact-card-note">Envie os detalhes do seu evento ou ensaio.</p>
+              <a href="mailto:registroemluz@gmail.com?subject=Solicita%C3%A7%C3%A3o%20de%20Or%C3%A7amento%20-%20Registro%20em%20Luz&body=Ol%C3%A1%20Ronilson,%20gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20o%20Registro%20em%20Luz.%0A%0AData%20do%20evento:%0ATipo%20de%20ensaio/evento:%0ALocal:" 
+                 class="btn btn-outline-white btn-lg">
+                <i class="fa-regular fa-paper-plane"></i>
+                Enviar Mensagem por E-mail
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================ -->
+  <!-- FOOTER                                       -->
+  <!-- ============================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Coluna 1: Marca e Identidade -->
+        <div>
+          <div class="footer-logo">Registro em Luz</div>
+          <p class="footer-tagline">
+            Fotografia autoral por Ronilson Ferreira. Sensibilidade, domínio técnico e a arte de capturar memórias inesquecíveis para toda a vida.
+          </p>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="footer-nav">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#sobre">Sobre Ronilson Ferreira</a></li>
+            <li><a href="#portfolio">Galeria de Portfólio</a></li>
+            <li><a href="#banlek">Banlek</a></li>
+            <li><a href="#faq">Dúvidas Frequentes</a></li>
+            <li><a href="#contato">Solicitar Orçamento</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Contato Exclusivo (Apenas WhatsApp e E-mail) -->
+        <div class="footer-contact">
+          <h4>Contato Direto</h4>
+          <div class="contact-item">
+            <a href="https://wa.me/5531991096868?text=Ol%C3%A1%20Ronilson!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20o%20Registro%20em%20Luz." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="contact-link whatsapp-link">
+              <i class="fa-brands fa-whatsapp"></i>
+              (31) 99109-6868
+            </a>
+          </div>
+          <div class="contact-item">
+            <a href="mailto:registroemluz@gmail.com" class="contact-link">
+              <i class="fa-regular fa-envelope"></i>
+              registroemluz@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Registro em Luz | Fotografia por Ronilson Ferreira. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================ -->
+  <!-- BOTAO FLUTUANTE WHATSAPP (Conversão Imediata)-->
+  <!-- ============================================ -->
+  <a href="https://wa.me/5531991096868?text=Ol%C3%A1%20Ronilson!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20com%20o%20Registro%20em%20Luz." 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="whatsapp-float" 
+     id="whatsappFloat" 
+     aria-label="Falar com Ronilson Ferreira no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Fale com Ronilson no WhatsApp</span>
+  </a>
+
+  <!-- Script na Raiz (Compatível com GitHub Pages) -->
+  <script src="script.js"></script>
+</body>
+</html>
